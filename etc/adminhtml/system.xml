@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="persata_mandrill" translate="label" sortOrder="600">
+            <label>Mandrill</label>
+        </tab>
+        <section id="persata_mandrill" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Mandrill</label>
+            <tab>persata_mandrill</tab>
+            <resource>Persata_Mandrill::config_persata_mandrill</resource>
+            <group id="general" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="key" translate="label comment" type="text" sortOrder="0" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>API Key</label>
+                    <comment>Enter your Mandrill API Key here.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

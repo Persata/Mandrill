@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Magento\Framework\Mail\Message" type="Persata\Mandrill\Mail\Message"/>
+    <preference for="Magento\Framework\Mail\Transport" type="Persata\Mandrill\Mail\Transport"/>
+</config>
